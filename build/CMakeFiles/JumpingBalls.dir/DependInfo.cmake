@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/arturtopal/Documents/JumpingBalls/src/Ball.cpp" "CMakeFiles/JumpingBalls.dir/src/Ball.cpp.o" "gcc" "CMakeFiles/JumpingBalls.dir/src/Ball.cpp.o.d"
+  "/home/arturtopal/Documents/JumpingBalls/src/Game.cpp" "CMakeFiles/JumpingBalls.dir/src/Game.cpp.o" "gcc" "CMakeFiles/JumpingBalls.dir/src/Game.cpp.o.d"
   "/home/arturtopal/Documents/JumpingBalls/src/main.cpp" "CMakeFiles/JumpingBalls.dir/src/main.cpp.o" "gcc" "CMakeFiles/JumpingBalls.dir/src/main.cpp.o.d"
   )
 

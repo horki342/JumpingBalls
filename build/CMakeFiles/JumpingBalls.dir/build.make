@@ -69,10 +69,38 @@ include CMakeFiles/JumpingBalls.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/JumpingBalls.dir/flags.make
 
+CMakeFiles/JumpingBalls.dir/src/Ball.cpp.o: CMakeFiles/JumpingBalls.dir/flags.make
+CMakeFiles/JumpingBalls.dir/src/Ball.cpp.o: /home/arturtopal/Documents/JumpingBalls/src/Ball.cpp
+CMakeFiles/JumpingBalls.dir/src/Ball.cpp.o: CMakeFiles/JumpingBalls.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/arturtopal/Documents/JumpingBalls/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/JumpingBalls.dir/src/Ball.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JumpingBalls.dir/src/Ball.cpp.o -MF CMakeFiles/JumpingBalls.dir/src/Ball.cpp.o.d -o CMakeFiles/JumpingBalls.dir/src/Ball.cpp.o -c /home/arturtopal/Documents/JumpingBalls/src/Ball.cpp
+
+CMakeFiles/JumpingBalls.dir/src/Ball.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/JumpingBalls.dir/src/Ball.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arturtopal/Documents/JumpingBalls/src/Ball.cpp > CMakeFiles/JumpingBalls.dir/src/Ball.cpp.i
+
+CMakeFiles/JumpingBalls.dir/src/Ball.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/JumpingBalls.dir/src/Ball.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arturtopal/Documents/JumpingBalls/src/Ball.cpp -o CMakeFiles/JumpingBalls.dir/src/Ball.cpp.s
+
+CMakeFiles/JumpingBalls.dir/src/Game.cpp.o: CMakeFiles/JumpingBalls.dir/flags.make
+CMakeFiles/JumpingBalls.dir/src/Game.cpp.o: /home/arturtopal/Documents/JumpingBalls/src/Game.cpp
+CMakeFiles/JumpingBalls.dir/src/Game.cpp.o: CMakeFiles/JumpingBalls.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/arturtopal/Documents/JumpingBalls/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/JumpingBalls.dir/src/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JumpingBalls.dir/src/Game.cpp.o -MF CMakeFiles/JumpingBalls.dir/src/Game.cpp.o.d -o CMakeFiles/JumpingBalls.dir/src/Game.cpp.o -c /home/arturtopal/Documents/JumpingBalls/src/Game.cpp
+
+CMakeFiles/JumpingBalls.dir/src/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/JumpingBalls.dir/src/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/arturtopal/Documents/JumpingBalls/src/Game.cpp > CMakeFiles/JumpingBalls.dir/src/Game.cpp.i
+
+CMakeFiles/JumpingBalls.dir/src/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/JumpingBalls.dir/src/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/arturtopal/Documents/JumpingBalls/src/Game.cpp -o CMakeFiles/JumpingBalls.dir/src/Game.cpp.s
+
 CMakeFiles/JumpingBalls.dir/src/main.cpp.o: CMakeFiles/JumpingBalls.dir/flags.make
 CMakeFiles/JumpingBalls.dir/src/main.cpp.o: /home/arturtopal/Documents/JumpingBalls/src/main.cpp
 CMakeFiles/JumpingBalls.dir/src/main.cpp.o: CMakeFiles/JumpingBalls.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/arturtopal/Documents/JumpingBalls/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/JumpingBalls.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/arturtopal/Documents/JumpingBalls/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/JumpingBalls.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JumpingBalls.dir/src/main.cpp.o -MF CMakeFiles/JumpingBalls.dir/src/main.cpp.o.d -o CMakeFiles/JumpingBalls.dir/src/main.cpp.o -c /home/arturtopal/Documents/JumpingBalls/src/main.cpp
 
 CMakeFiles/JumpingBalls.dir/src/main.cpp.i: cmake_force
@@ -85,15 +113,19 @@ CMakeFiles/JumpingBalls.dir/src/main.cpp.s: cmake_force
 
 # Object files for target JumpingBalls
 JumpingBalls_OBJECTS = \
+"CMakeFiles/JumpingBalls.dir/src/Ball.cpp.o" \
+"CMakeFiles/JumpingBalls.dir/src/Game.cpp.o" \
 "CMakeFiles/JumpingBalls.dir/src/main.cpp.o"
 
 # External object files for target JumpingBalls
 JumpingBalls_EXTERNAL_OBJECTS =
 
+JumpingBalls: CMakeFiles/JumpingBalls.dir/src/Ball.cpp.o
+JumpingBalls: CMakeFiles/JumpingBalls.dir/src/Game.cpp.o
 JumpingBalls: CMakeFiles/JumpingBalls.dir/src/main.cpp.o
 JumpingBalls: CMakeFiles/JumpingBalls.dir/build.make
 JumpingBalls: CMakeFiles/JumpingBalls.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/arturtopal/Documents/JumpingBalls/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable JumpingBalls"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/arturtopal/Documents/JumpingBalls/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable JumpingBalls"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JumpingBalls.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

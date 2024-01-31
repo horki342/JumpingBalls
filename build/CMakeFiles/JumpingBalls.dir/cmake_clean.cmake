@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/JumpingBalls.dir/src/Ball.cpp.o"
+  "CMakeFiles/JumpingBalls.dir/src/Ball.cpp.o.d"
+  "CMakeFiles/JumpingBalls.dir/src/Game.cpp.o"
+  "CMakeFiles/JumpingBalls.dir/src/Game.cpp.o.d"
   "CMakeFiles/JumpingBalls.dir/src/main.cpp.o"
   "CMakeFiles/JumpingBalls.dir/src/main.cpp.o.d"
   "JumpingBalls"
