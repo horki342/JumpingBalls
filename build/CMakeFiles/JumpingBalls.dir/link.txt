@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/JumpingBalls.dir/src/main.cpp.o -o JumpingBalls   -L/home/arturtopal/Documents/JumpingBalls/lib  -Wl,-rpath,/home/arturtopal/Documents/JumpingBalls/lib -lraylib -lraylib -lraylib 

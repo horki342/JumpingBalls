@@ -1,0 +1,3 @@
+/home/arturtopal/Documents/JumpingBalls/build/CMakeFiles/JumpingBalls.dir
+/home/arturtopal/Documents/JumpingBalls/build/CMakeFiles/edit_cache.dir
+/home/arturtopal/Documents/JumpingBalls/build/CMakeFiles/rebuild_cache.dir
