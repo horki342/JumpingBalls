@@ -74,6 +74,11 @@ void Game::update(float dt)
 
 void Game::generateBall(Vector2 position)
 {
+    // check ball collision
+    for (auto &ball : balls)
+        if (CheckCollisionPointCircle(position, ball.get_position(), 2 * radius))
+            return;
+
     // generate random velocity
     Vector2 velocity;
     velocity.x = GetRandomValue(1, 500) * 1.0f;

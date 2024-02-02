@@ -9,7 +9,7 @@ int main()
     gravity.x = 0.0f;
     gravity.y = 9.8f;
     float factor = 1000.f;
-    float radius = 5.0f;
+    float radius = 25.0f;
 
     Game game(width, height, title, gravity, factor, radius);
     game.run();
